@@ -3,11 +3,7 @@
 <head>
 <meta charset="utf-8"/>
 <title>我喜欢你❤️</title>
-<!-- 
-本源码由SZ源码网分享http://www.songzifc.cn/
-免备案服务器：http://www.songzifc.cn/post/7439.html
-更多精品源码：http://www.songzifc.cn/category-17.html
--->
+
 <!-- style -->
 <link type="text/css" rel="stylesheet" href="css/theme.css">
 <script src="js/jquery-2.0.3.min.js"></script>
@@ -75,11 +71,6 @@
 				<!-- 音乐按钮部分 -->
 				<img id="img_music" src="images/music_note_big.png" style="-webkit-animation:music_play_rotate 1s linear infinite">
 				<!-- 您的浏览器不支持播放音乐 -->
-				<!-- 
-本源码由SZ源码网分享http://www.songzifc.cn/
-免备案服务器：http://www.songzifc.cn/post/7439.html
-更多精品源码：http://www.songzifc.cn/category-17.html
--->
 				<audio id="audio_music" autoplay="autoplay" loop="loop"><source type="audio/mpeg"/></audio>
 			</div>
 			<div class="div_record_tips"></div>
@@ -123,10 +114,6 @@ var theme_content = {
 };
 console.log(theme_content);
 
-//本源码由SZ源码网分享http://www.songzifc.cn/
-//免备案服务器：http://www.songzifc.cn/post/7439.html
-//更多精品源码：http://www.songzifc.cn/category-17.html
-
 var music_json = {
 	"music_select": "m_online",
 	"m_online_id": "7",
@@ -142,9 +129,6 @@ var record_json = {
 	"r_wechat_amr": "null"
 };
 console.log(record_json);
-//本源码由SZ源码网分享http://www.songzifc.cn/
-//免备案服务器：http://www.songzifc.cn/post/7439.html
-//更多精品源码：http://www.songzifc.cn/category-17.html
 
 var main_title = '我喜欢你❤️';
 // console.log(main_title);
@@ -194,9 +178,6 @@ function init_pure_words() {
 		str_cursorChar = '❤';
 	}
 	//判断用户有没有选择打字效果
-	//本源码由SZ源码网分享http://www.songzifc.cn/
-//免备案服务器：http://www.songzifc.cn/post/7439.html
-//更多精品源码：http://www.songzifc.cn/category-17.html
 	if (typeof(theme_content['typed_bool']) != 'undefined' && theme_content['typed_bool'] != '') {
 		typed_bool = theme_content['typed_bool'] == 'typed_y' ? true : false;
 	} else {
@@ -219,9 +200,6 @@ function init_pure_words() {
 		}
 	}, 100);
 }
-//本源码由SZ源码网分享http://www.songzifc.cn/
-//免备案服务器：http://www.songzifc.cn/post/7439.html
-//更多精品源码：http://www.songzifc.cn/category-17.html
 function display_pure_words() {
 	if (typed_bool) {
 		var typed_pure_words = new Typed('#span_pw_typed', {
